@@ -29,7 +29,7 @@ VHOST=$(cat <<EOF
     <Directory "${PROJECTFOLDER}">
             AllowOverride All
     </Directory>
-    WSGIScriptAlias / /var/www/html/app.wsgi
+    WSGIScriptAlias / "${PROJECTFOLDER}/app.wsgi"
 </VirtualHost>
 EOF
 )
