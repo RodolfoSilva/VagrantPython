@@ -1,4 +1,4 @@
-# VagrantPython
+# Vagrant Python
 
 * Linux
 * Apache
